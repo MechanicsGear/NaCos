@@ -1,0 +1,74 @@
+html {
+    font-size: 4px; // * 1rem = 4px  方便unocss计算：在unocss中 1字体单位 = 0.25rem，相当于 1等份 = 1px
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    font-family: 'Encode Sans Condensed', sans-serif;
+  }
+  
+  /* router view transition fade-slide */
+  .fade-slide-leave-active,
+  .fade-slide-enter-active {
+    transition: all 0.3s;
+  }
+  
+  .fade-slide-enter-from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  
+  .fade-slide-leave-to {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  ::before,
+  ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover,
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  input,
+  textarea {
+    outline: none;
+    border: none;
+    resize: none;
+  }
+  
+  body {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  $primaryColor: #316c72;
+
+  :root {
+    --vh100: 100vh;
+  }
+      
